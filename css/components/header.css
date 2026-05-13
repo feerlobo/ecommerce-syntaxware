@@ -19,7 +19,7 @@
 
 .nav-center {
     display: flex;
-    align-items: center
+    align-items: center;
 
 }
 
@@ -35,13 +35,13 @@
 .nav-center__list a,
 .nav-right ul a {
     font-size: 1.25rem;
-    color: #333333
+    color: #333333;
 }
 
 
 .nav-center__list a:hover,
 .nav-right ul a:hover {
-    color: #7c3aed
+    color: #7c3aed;
     font-size: 1.25rem;
 }
 
