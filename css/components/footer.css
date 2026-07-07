@@ -71,6 +71,10 @@
     gap: 1.25rem;
 }
 
+.social-list li a :hover {
+    opacity: 0.50;
+}
+
 .footer-bottom {
     margin-top: 1rem;
     align-self: flex-start;
