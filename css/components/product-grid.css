@@ -46,7 +46,6 @@
         "highlight highlight sneaker-purple sneaker-purple"
         "highlight highlight model sneaker-color"
         "sneaker-white sneaker-white model sneaker-silver";
-    gap: 30px;
 }
 
 .highlight-content {
@@ -76,3 +75,24 @@
     gap: 10px;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .grid-section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 300px);
+        grid-template-areas:
+            "highlight highlight"
+            "sneaker-white sneaker-white"
+            "model sneaker-color"
+            "model sneaker-silver"
+            "sneaker-purple sneaker-purple";
+            max-width: 100%;
+            gap: 0.625rem;
+               }
+}
+
+.highlight, .sneaker-purple, .model, .sneaker-color, .sneaker-white, .sneaker-silver {
+    min-height: auto;
+    
+}
+
