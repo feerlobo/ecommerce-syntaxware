@@ -1,5 +1,5 @@
 .hero-section{
-    background: url(/images/banners/hero.jpg) no-repeat center center;
+    background: url(../../images/banners/hero.jpg) no-repeat center center;
     background-size: cover;
 
     height: 500px;  
@@ -44,7 +44,7 @@
 @media (max-width: 768px) {
     .hero-section {
         height: 660px;
-        background-image: url(/images/banners/hero-mobile.svg);
+        background-image: url(../../images/banners/hero-mobile.svg);
     }
 }
 .hero-overlay{
